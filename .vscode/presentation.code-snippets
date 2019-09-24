@@ -1,0 +1,19 @@
+{
+  "import { Brand } from 'nom-ts'": {
+    "scope": "typescript",
+    "prefix": "brand",
+    "body": ["import { Brand } from 'nom-ts';\n\n"]
+  },
+  "new Error(`${x} is not even`)": {
+    "scope": "typescript",
+    "prefix": "noteven",
+    "body": "new Error(`\\${x} is not even`)"
+  },
+  "import { Either, left, right } from 'fp-ts/lib/Either'": {
+    "scope": "typescript",
+    "prefix": "either",
+    "body": [
+      "import { Either, left, right } from 'fp-ts/lib/Either';\n\n"
+    ]
+  }
+}
