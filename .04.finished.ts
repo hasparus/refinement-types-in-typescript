@@ -16,7 +16,8 @@ const makeEven = (x: number): Either<Error, Even> =>
 
 // ---
 
-console.log(makeEven(3), makeEven(2));
+console.log(makeEven(5));
+console.log(makeEven(4));
 
 try {
   console.log(Even(3));
