@@ -4,7 +4,7 @@ The code and the [_slides_](https://staltz.com/your-ide-as-a-presentation-tool.h
 
 ---
 
-I've got some notes about refinement types in a [gist](https://gist.github.com/hasparus/9bd482e2ae904e8ee5f4080f04dc0ee8).
+I've got some notes about refinement types in a ~~[gist](https://gist.github.com/hasparus/9bd482e2ae904e8ee5f4080f04dc0ee8)~~ [blogpost](https://haspar.us/refinement-types).
 
 There are links to good stuff in the [5th slide](https://github.com/hasparus/refinement-types-in-typescript/blob/master/05.md).
 
