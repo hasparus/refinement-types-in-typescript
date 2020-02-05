@@ -4,10 +4,10 @@
     "prefix": "brand",
     "body": ["import { Brand } from 'nom-ts';\n\n"]
   },
-  "new Error(`${x} is not even`)": {
+  "new Error(`${s} is not even`)": {
     "scope": "typescript",
-    "prefix": "noteven",
-    "body": "new Error(`\\${x} is not even`)"
+    "prefix": "notemail",
+    "body": "new Error(`\\${s} is not email`)"
   },
   "import { Either, left, right } from 'fp-ts/lib/Either'": {
     "scope": "typescript",

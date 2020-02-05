@@ -1,26 +1,27 @@
 import { Brand } from 'nom-ts';
 import { Either, left, right } from 'fp-ts/lib/Either';
 
-type Even = Brand<number, 'Even'>;
-const isEven = (x: unknown) => typeof x === 'number' && x % 2 === 0;
+type Email = Brand<string, 'Email'>;
+const isEmail = (x: unknown): x is Email =>
+  typeof x === 'string' && x.includes('@');
 
-const Even = (x: number): Even => {
-  if (!isEven(x)) {
-    throw new Error(`${x} is not even`);
+const Email = (s: string): Email => {
+  if (!isEmail(s)) {
+    throw new Error(`${s} is not email`);
   }
-  return x as Even;
+  return s;
 };
 
-const makeEven = (x: number): Either<Error, Even> =>
-  isEven(x) ? right(x as Even) : left(new Error(`${x} is not even`));
+const makeEmail = (s: string): Either<Error, Email> =>
+  isEmail(s) ? right(s as Email) : left(new Error(`${s} is email`));
 
 // ---
 
-console.log(makeEven(5));
-console.log(makeEven(4));
+console.log(makeEmail('hasparus@gmail.com'));
+console.log(makeEmail('@')); // 🤷‍♂️
 
 try {
-  console.log(Even(3));
+  console.log(Email('+48 123 123 123'));
 } catch (err) {
   console.log(err);
 }
