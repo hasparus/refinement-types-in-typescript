@@ -15,3 +15,7 @@ You can find the notes I made to prepare for the talk in a [Dropbox Paper doc](h
 - 01x0.jpg
   - [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/) licensed 
   - source: http://absfreepic.com/free-photos/download/swiss-army-knife-4176x2784_15889.html
+- 01x1.jpg
+  - shamelessly stolen from Google Images
+  - slide from ["Domain Modeling Made Functional"](https://www.youtube.com/watch?v=1pSH8kElmM4&feature=youtu.be) by Scott Wlaschin -- it's wonderful, watch it.
+
