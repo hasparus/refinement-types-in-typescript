@@ -19,3 +19,33 @@ You can find the notes I made to prepare for the talk in a [Dropbox Paper doc](h
   - shamelessly stolen from Google Images
   - slide from ["Domain Modeling Made Functional"](https://www.youtube.com/watch?v=1pSH8kElmM4&feature=youtu.be) by Scott Wlaschin -- it's wonderful, watch it.
 
+---
+_quick reminders_
+
+# Controls
+
+```json
+  {
+    "key": "cmd+alt+left",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "cmd+alt+right",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+shift+q",
+    "command": "quokka.toggle",
+    "when": "editorTextFocus"
+  },
+```
+
+Move quickly through the slides with
+- `Cmd + Alt + LeftArrow` → _View: Open Previous Editor_  
+- `Cmd + Alt + RightArrow` → _View: Open Next Editor_
+
+Run TypeScript slides with
+- `Cmd + Shift + Q` → _Quokka.js: Toggle (Start/Stop) on Current File_
+
+Minimize distractions and maximize screen space 
+- `Cmd + B` → _(built-in) View: Toggle Side Bar Visibility_
